@@ -5,22 +5,23 @@
 <style>
 body {
 text-align: center;
-background-color: #999999;
+background-color: #cccccc;
 font-family: Arial, sans-serif;
 margin: 20px;
 }
 img.larger-img {
 display: block;
-margin: 0 auto;
-width: 50%;
+margin: 0 auto 20px auto;
+width: 40%;
 max-width: 800px;
 height: auto;
 }
 img.smaller-img {
 float: left;
-display: block;
+height: auto;
+margin-right: 20px;
+margin-top: 10px;
 width: 30%;
-margin: 0 auto;
 max-width: 300px;
 }
 ul {
@@ -28,8 +29,27 @@ list-style-type: square;
 text-align: left;
 display: inline-block;
 padding-left: 20px;
+margin-bottom: 20px;
 }
 
+ul.hobbies {
+list-style-type: square;
+display: inline-block;
+text-align: left;
+margin: 0 auto 20px auto;
+padding-left: 20px;
+}
+a {
+text-decoration: none;
+color: blue;
+}
+a: hover {
+text-decoration: underline;
+}
+p {
+max-width: 800px;
+margin: 10px auto;
+  
 </style>
 </head>
 <body>
@@ -48,16 +68,9 @@ My major is computer science.</p>
 <li>placeholder</li>
 </ul>
 <h2>My Favorite Hobby/Activity</h2>
-<p>My favorite hobby is to work on cars. 
-I own 2 Mitsubishi Eclipses, a 2003 and a 2009, which I modify and work on often. 
-Some things I've done include suspension work such as installing coil overs and lowering spring, 
-engine work such as stripping down an engine to the block and upgrading air filters, 
-wiring work such as fixing speaker and radio wires and subwoofer installs, 
-changing brakes, headlight and tailight installs, 
-custom exhaust work, aftermarket body kit installations such as new bumpers, just to name a few.</p>
-<ul>
-<li><a href="https://www.club4g.org/">Club4G</a></li>
-<p>Another hobby of mine is that I like to play games. I own an Xbox and some of my favorite games include Call of Duty, Destiny, Halo, GTA, Battlefield, and Minecraft</p>
+<ul class="hobbies">
+<li><a href="https://www.club4g.org/">Working on cars</a>: I own two Mitsubishi Eclipses, a 2003 and a 2009, and I often modify and upgrade them, including suspension, engine work, custom exhaust, and custom body kits.</li>
+<li>Playing video games: I enjoy games like Call of Duty, Destiny, Halo, GTA, Battlefield, and Minecraft.</li>
 <li><a href="https://www.ea.com/en/games/battlefield/battlefield-6">Battlefield 6</a></li>
 </ul>
 <h2>Fun Fact</h2>
